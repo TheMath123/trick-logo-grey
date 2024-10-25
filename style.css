@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.google {
+  width: 300px;
+  height: 101px;
+}
+
+.instagram {
+  width: 120px;
+  height: 120px;
+}
+
+.mod-image {
+  filter: saturate(200%) grayscale(1);
+}
