@@ -24,14 +24,9 @@
   justify-content: center;
 }
 
-.google {
-  width: 300px;
-  height: 101px;
-}
-
-.instagram {
-  width: 120px;
-  height: 120px;
+.size {
+  width: 343px;
+  height: 193px;
 }
 
 .mod-image {
